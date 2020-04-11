@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Despertador</title>
+</head>
+<body>
+    <div class="main" id="main">
+        <center>
+            <label class="hora">
+                <h4 class="titulo"><strong>Insira um horário para o Despertador:</strong></h4>
+                <input class="horario" type="number" name="horario" id="horario">
+            </label>
+            <br><br>
+
+            <!--label>
+                <h4 class="musica"><strong>Escolha uma Música</strong></h4>
+                <input type="file" name="musica" id="musica">
+            </label>
+            <br><br-->
+
+            <input id="button" class="button" type="button" value="Definir" onclick="definir()">
+            <br><br>
+
+            <div class="result" id="result">Resultado:</div>
+            <audio id="audio" src="" autoplay></audio>
+        </center>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
